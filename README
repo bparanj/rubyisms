@@ -1,0 +1,3 @@
+Useful extensions to existing Ruby classes that preserves the semantics of the Ruby classes.
+- Array union and intersection methods. 
+- Fixnum inclusive and exclusive methods
