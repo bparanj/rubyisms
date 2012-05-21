@@ -34,4 +34,11 @@ describe Array do
     a.include?(1).should be_true 
     a.include?(2).should be_false
   end
+  
+  it "should return a comma separated list of items when to_s is called" do
+    a = [1,2,3,4]
+    result = a.to_s
+    
+    result.should == "1,2,3,4"
+  end
 end

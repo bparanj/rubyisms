@@ -7,6 +7,10 @@ class Array
   def intersection(another)  
     self & another  
   end  
+  # Better implementation that the default one provided by array
+  def to_s
+    join(",")
+  end
 end
 
 class Fixnum
